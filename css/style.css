@@ -1,0 +1,40 @@
+/*-----------------
+    RESET
+------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    border: 5px dashed lightblue;
+    display: flex;
+    /* flex-direction: column; */
+    height: 800px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    /* flex-basis: 200px; */
+    background: lightcoral;
+    border: 5px solid;
+    font-size: 36px;
+    /* text-align: center;
+    line-height: 190px; */
+    /* flex-shrink: 0; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+/* #square-3, #square-4 {
+    flex-grow: 1
+}
+
+#square-2 {
+    flex-grow: 2
+} */
